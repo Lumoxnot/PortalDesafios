@@ -1,0 +1,45 @@
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 12px;
+        overflow: hidden; /* Evita rolagem horizontal e vertical */
+        font-family: 'Open Sans', sans-serif;
+    }
+    .bemvindo {
+        top: 25px;
+        left: 15px;
+        width: calc(100% - 30px); /* Ajusta a largura para caber na tela */
+    }
+    .lista {
+        top: 70px;
+        left: 15px;
+        width: calc(100% - 30px); /* Ajusta a largura para caber na tela */
+    }
+    .Questoes {
+        top: 70px;
+        left: 15px;
+        width: calc(100% - 30px); /* Ajusta a largura para caber na tela */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+        overflow: hidden; /* Evita rolagem horizontal e vertical */
+        font-family: 'Open Sans', sans-serif;
+    }
+    .bemvindo {
+        top: 20px;
+        left: 10px;
+        width: calc(100% - 20px); /* Ajusta a largura para caber na tela */
+    }
+    .lista {
+        top: 60px;
+        left: 10px;
+        width: calc(100% - 20px); /* Ajusta a largura para caber na tela */
+    }
+    .Questoes {
+        top: 60px;
+        left: 10px;
+        width: calc(100% - 20px); /* Ajusta a largura para caber na tela */
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Português Básico - PortalDesafios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            color: white;
+            background-image: url('img/navy-blue-smoky-art-abstract-background_968517-4652.avif');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            max-width: 100%;
+            font-family: 'Open Sans', sans-serif;
+            overflow: hidden; /* Evita rolagem horizontal e vertical */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .bemvindo {
+            margin-bottom: 20px;
+        }
+        .bemvindo h1 {
+            font-size: 2.5em;
+        }
+        .bemvindo h2 {
+            font-size: 1.5em;
+        }
+        .botoes {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .botoes a {
+            background-color: royalblue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .botoes a:hover {
+            background-color: darkblue;
+        }
+        
+        /* Estilos responsivos */
+        @media screen and (max-width: 900px) {
+            .bemvindo h1 {
+                font-size: 2em;
+            }
+            .bemvindo h2 {
+                font-size: 1.2em;
+            }
+            .botoes a {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bemvindo">
+            <h1>Português Básico</h1>
+            <h2>Vamos começar com as questões de Português Básico:</h2>
+        </div>
+        <div class="botoes">
+            <a href="QuestaoP1.html">Começar Questões</a>
+        </div>
+    </div>
+</body>
+</html>

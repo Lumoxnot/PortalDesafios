@@ -1,0 +1,174 @@
+@media screen and (max-width: 600px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-size: 10px;
+        max-height: 20vh;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu a {
+        font-size: 20px;
+    }
+    .inicio {
+        left: 60px;
+    }
+    .portugues {
+        left: 120px;
+    }
+    .matematica {
+        left: 200px;
+    }
+
+    #dev {
+        left: 10px;
+        top: 20px;
+    }
+    #motivo {
+    display: none;
+
+    }
+    .contatos{
+        right: 90px;
+        position: absolute;
+    }
+    footer{
+        bottom: -100px;
+        height: 100px;
+    }
+    .Portal{
+        width: 80%;
+    }
+    ul li {
+        width: 80%;
+        
+    }
+    ul{
+        width: 80%;
+    }
+    .fuciona p{
+        width: 80%;
+    }
+    footer img{
+        top: 40px;
+        height: 40px;
+        width: 40px;
+        right: 0;
+    }
+    #dev{
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    .portugues{
+        left: 140px;
+    }
+
+    .matematica{
+        left: 250px;
+    }
+    .perfil{
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-size: 10px;
+        max-height: 20vh;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .menu a {
+        font-size: 18px;
+    }
+    .inicio {
+        left: 70px;
+    }
+    .portugues {
+        left: 140px;
+    }
+    .matematica {
+        left: 240px;
+    }
+    .comoFuciona {
+        top: 110px;
+    }
+    #dev {
+        left: 70px;
+        top: 30px;
+    }
+    #motivo {
+        left: 250px;
+        top: 30px;
+    }
+    footer{
+        bottom: -120px;
+    }
+    footer img{
+        top: 20px;
+        height: 45px;
+        width: 45px;
+        right: 0;
+    }
+    footer .triste{
+        left: -50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-size: 10px;
+       height: 300vh;
+        max-width: 100%;
+        font-family: 'Open Sans', sans-serif;
+       
+    }
+    .menu a {
+        font-size: 12px;
+      
+    }
+    .inicio {
+        left: 50px;
+    }
+    .portugues {
+        left: 100px;
+    }
+    .matematica {
+        left: 180px;
+    }
+    .comoFuciona {
+        top: 120px;
+    }
+   
+    #motivo {
+        left: 150px;
+        top: 20px;
+    }
+    footer{
+        height: 100px;
+        bottom: -200px;
+    }
+    footer h1{
+        font-size: 12px;
+      
+    }
+    footer img{
+        top: 40px;
+        height: 40px;
+        width: 40px;
+        right: 0;
+    }
+    #dev{
+        top: 50px;
+    }
+    footer .triste{
+        left: -50px;
+    }
+}

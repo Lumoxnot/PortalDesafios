@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-image: url('img/navy-blue-smoky-art-abstract-background_968517-4652.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.bemvindo{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.lista{
+    left: 30px;
+    position: relative;
+    top: 90px;
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.Questoes{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+    color: gray ;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: royalblue; 
+}
